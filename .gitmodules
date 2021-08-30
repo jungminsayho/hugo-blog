@@ -1,0 +1,7 @@
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = git@github.com:jungminsayho/LoveIt.git
+[submodule "public"]
+	path = public
+	url = git@github.com:jungminsayho/jungminsayho.github.io.git
+	branch = master
