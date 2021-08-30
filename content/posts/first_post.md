@@ -1,6 +1,8 @@
 ---
 title: "First_post"
 date: 2021-08-24T14:34:24+09:00
+authors: ["Jungminsayho"]
+# tags: [""] 
 
 ---
 Hi my name is sayho.
