@@ -5,7 +5,7 @@
 
 {{- if $comment.enable -}}
     <div id="comments">
-        {{- /* Disqus Comment System */ -}}
+        <!-- {{- /* Disqus Comment System */ -}}
         {{- $disqus := $comment.disqus | default dict -}}
         {{- if $disqus.enable -}}
             <div id="disqus_thread" class="comment"></div>
@@ -109,7 +109,7 @@
             <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://commento.io/">Commento</a>.
             </noscript>
-        {{- end -}}
+        {{- end -}} -->
 
         {{- /* Utterances Comment System */ -}}
         {{- $utterances := $comment.utterances | default dict -}}
