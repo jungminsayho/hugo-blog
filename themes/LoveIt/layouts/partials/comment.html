@@ -115,13 +115,7 @@
         {{- $utterances := $comment.utterances | default dict -}}
         {{- if $utterances.enable -}}
             <div id="utterances"></div>
-            <script src="https://utteranc.es/client.js"
-                repo="jungminsayho/jungminsayho.github.io"
-                issue-term="pathname"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
-            </script>
+
             <!-- <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://commento.io/">Commento</a>.
             </noscript> -->
