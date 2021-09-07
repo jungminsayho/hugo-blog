@@ -40,6 +40,8 @@ category_name = request.GET.get('category', None)
 category      = None
 ```
 
+<br>
+
 먼저, query parameter로 받을 `sort`와 `category`의 value를 모두 받아둔다.<br>
 `category = None`으로 미리 변수설정을 해둔 이유는 아래에 나오지만, 카테고리 별로 카테고리 이미지도 반환해줘야 하는데,
 제품리스트의 전체를 반환하는 경우(카테고리 필터 없이)의 이미지는 프론트에서 하드코딩으로 넣는 방법을 사용했기 때문에, 이 경우 백엔드에서는 카테고리 이미지를 빈 값으로 반환하기 위함이다.
@@ -55,6 +57,8 @@ if Category.objects.filter(name=category_name).exists():
     category = Category.objects.get(name=category_name)
     q.add(Q(category=category), q.AND)
 ```
+
+<br>
 
 카테고리 필터링을 위해 **`Q 객체`**를 사용했고, **`Q 객체`**에 아무 필터조건도 저장되지 않은 경우에는 전체 product를 반환한다.
 
