@@ -3,6 +3,7 @@ title: "Third Post"
 date: 2021-08-31T14:34:24+09:00
 authors: ["Jungminsayho"]
 # tags: [""] 
+draft: true
 
 ---
 Hi my name is sayho.
