@@ -7,7 +7,6 @@ authors: ["Jungminsayho"]
 
 ---
 
-# 🖥 운영환경에서 runserver를 사용하지 않는 이유
 
 <br><br>
 
