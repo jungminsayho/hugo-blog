@@ -1,6 +1,6 @@
 ---
 title: "[Django] 운영환경에서 runserver를 사용하지 않는 이유"
-date: 2021-07-18T14:34:24+09:00
+date: 2021-09-07T14:34:24+09:00
 authors: ["Jungminsayho"]
 # tags: [""] 
 # draft: true
