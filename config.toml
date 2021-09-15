@@ -126,7 +126,7 @@ theme = "LoveIt"
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "https://github.com/jungminsayho"
+        GitHub = "jungminsayho"
         Linkedin = ""
         Twitter = ""
         Instagram = ""
