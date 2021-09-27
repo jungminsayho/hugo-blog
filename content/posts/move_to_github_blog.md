@@ -6,5 +6,6 @@ authors: ["Jungminsayho"]
 
 ---
 
-이전에 사용하던 벨로그에서, 깃헙 블로그로 이전 중입니다!
+이전에 사용하던 [벨로그]에서, 깃헙 블로그로 이전 중입니다!
 
+[벨로그]: https://velog.io/@jungminnn
